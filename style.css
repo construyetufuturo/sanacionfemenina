@@ -1300,8 +1300,8 @@ footer{
 
 }
 .social-media-icon:hover{
-    background-color: #fff;
-    color: #25d366;
+    /* background-color: #fff; */
+    color: #0aed5d;
 }
 .social-media-icon i{
     font-size: 30px;
