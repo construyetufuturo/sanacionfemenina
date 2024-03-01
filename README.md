@@ -1,3 +1,2 @@
-# ganadoresdexito
-# gestionemocional
+
 # sanacionfemenina
