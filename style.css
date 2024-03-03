@@ -1642,12 +1642,9 @@ footer{
     
 }
 @media screen and (max-width:480px){
-    /* .header .titulo{
-        font-size: 23px;
-    } */
-    /* .header .copy{
-        font-size: 20px;
-    } */
+    .header{
+        height: 60vh;
+    }
     .contenedor{
         padding-top: 25px;
     }
