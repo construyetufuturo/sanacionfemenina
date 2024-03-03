@@ -1559,6 +1559,10 @@ footer{
     .gatillo-progress-bar .progress-container .progress-bar span{
         font-size: 12px;
     }
+    .enunciado-perfil .checklist-servicio-perfil{
+        width: 100%;
+    }
+    
     
 }
 @media screen and (max-width:500px){
@@ -1700,6 +1704,7 @@ footer{
     .contenedor .mySwiper-cards, .contenedor .mySwiper-lograras{
         width: 100%;
     }
+    
     
 }
 
