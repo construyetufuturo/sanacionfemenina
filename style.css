@@ -42,7 +42,7 @@ body{
 }
 
 header{
-    height: 80vh;
+    height: 70vh;
     /* background-image: linear-gradient(180deg, #9f90f4 0, #6c6cd8 50%, #274bbd 100%); */
     background-image:  url('img/sanacion2.png') ;
     background-repeat: no-repeat;
@@ -1637,18 +1637,22 @@ footer{
     .contenedor .button-box a{
         font-size: 18px;
     }
-    .header{
-        /* background-image: none;
-        background-color: #06171a; */
-        height: max-content;
+    header{
+        height: 40vh;
+        /* background-image: linear-gradient(180deg, #9f90f4 0, #6c6cd8 50%, #274bbd 100%); */
+        background-image:  url('img/sanacionbg2.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        /* background-color: #16213E; */
+        /* background-color: #25344f; */
     }
     
     
 }
 @media screen and (max-width:480px){
-    .header{
-        height: 60vh;
-    }
+     
     .contenedor{
         padding-top: 25px;
     }
