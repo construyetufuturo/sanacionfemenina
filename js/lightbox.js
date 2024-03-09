@@ -4,6 +4,7 @@ const imagenesLight = document.querySelector('.agregar-imagen');
 const contenedorLight = document.querySelector('.imagen-light');
 const icon_menu1 = document.querySelector('.icon-menu');
 const swipercardperfil = document.querySelectorAll('#contenedor-swiper')
+const tiempoLimitadoSection = document.querySelector('.tiempo-limitado-section');
 
 imagenes.forEach(imagen =>{
    imagen.addEventListener('click', ()=>{
@@ -23,6 +24,7 @@ contenedorLight.addEventListener('click', (e)=>{
         swipercardperfil.forEach(element => {
             element.style.opacity = '1'
         });
+        tiempoLimitadoSection.style.display = 'block';
     }
 })
 
@@ -31,6 +33,7 @@ const aparecerImagen = (imagen)=>{
     contenedorLight.classList.toggle('show');
     imagenesLight.classList.toggle('showImage');
     icon_menu1.style.opacity = '0';
+    tiempoLimitadoSection.style.display = 'none';
 }
 // lighbox galeria end
 // 
