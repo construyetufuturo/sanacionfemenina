@@ -3,7 +3,8 @@
     simplyCountdown('#cuenta', {
         year: 2024, // required
         month: date.getMonth()+1, // required
-        day: date.getDate()+1, // required
+        // day: date.getDate()+4, // required
+        day: 17+4, // required
         hours: 9, // Default is 0 [0-23] integer
         minutes: 44, // Default is 0 [0-59] integer
         seconds: 0, // Default is 0 [0-59] integer

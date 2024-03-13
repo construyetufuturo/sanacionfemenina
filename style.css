@@ -434,7 +434,10 @@ a:link, a:visited, a:active {
 }
 
 .simply-days-section{
-    display: none;
+    /* si comento display: none, descomento lo de abajo */
+    display: none;  
+    /* text-align: center;
+    margin: 0 8px; */
 }
 
 /*  */
@@ -1172,7 +1175,7 @@ a:link, a:visited, a:active {
 .contenedor-garantia{
     width: 500px;
     height: 420px;
-    background-color: rgb(238,242,246);
+    background-color: #11110e;
     margin: 20px 0;
     padding: 18px 25px;
     border-radius: 12px;
@@ -1180,6 +1183,10 @@ a:link, a:visited, a:active {
 }
 .contenedor-garantia li{
     padding: 8px 0;
+}
+.contenedor-garantia img{
+    width: 100%;
+    height: auto;
 }
  .img-garantia{
     width: 300px;
