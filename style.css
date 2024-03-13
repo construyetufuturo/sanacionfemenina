@@ -42,9 +42,9 @@ body{
 }
 
 header{
-    height: 70vh;
+    height: 80vh;
     /* background-image: linear-gradient(180deg, #9f90f4 0, #6c6cd8 50%, #274bbd 100%); */
-    background-image:  url('img/sanacion2.png') ;
+    background-image:  url('img/sanacion3.png') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ header{
 }
 .perfil-cliente-section, .logros-section, .instructora-oficial, .gallery, .box-seguridad-conteiner{
     /* background-image: linear-gradient(180deg, #9f90f4 0, #6c6cd8 50%, #274bbd 100%); */
-    background-image:  linear-gradient(to right, rgb(67, 67, 67,0.5) 0%, rgb(0, 0, 0,0.6) 100%),url('img/sanacion2.png') ;
+    background-image:  linear-gradient(to right, rgb(67, 67, 67,0.5) 0%, rgb(0, 0, 0,0.6) 100%),url('img/sanacion3.png') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -62,7 +62,7 @@ header{
 }
 .modulos-section,.inscripcion-section{
     /* background-image: linear-gradient(180deg, #9f90f4 0, #6c6cd8 50%, #274bbd 100%); */
-    background-image:  linear-gradient(to right, rgb(67, 67, 67,0.5) 0%, rgb(0, 0, 0,0.3) 100%),url('img/backgroundholistic.png') ;
+    background-image:  linear-gradient(to right, rgb(67, 67, 67,0.5) 0%, rgb(0, 0, 0,0.3) 100%),url('img/sanacion3.png') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -360,6 +360,9 @@ header{
     margin-left: auto;
     margin-bottom: 4rem;
 }
+.contenedor .copy-centro-inicio{
+    visibility: hidden;
+}
 a:link, a:visited, a:active {
     text-decoration:none;
 }
@@ -474,7 +477,7 @@ a:link, a:visited, a:active {
     background-size: cover;
 }
 .contenedor-swiper-cards .perfil-img3-container{
-    background-image: url(img/compresed/perfil3.png);
+    background-image: url(img/compresed/perfil1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1638,9 +1641,9 @@ footer{
         font-size: 18px;
     }
     header{
-        height: 40vh;
+        height: 30vh;
         /* background-image: linear-gradient(180deg, #9f90f4 0, #6c6cd8 50%, #274bbd 100%); */
-        background-image:  url('img/sanacionbg2.png') ;
+        background-image:  url('img/sanacionvertical2.png') ;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
