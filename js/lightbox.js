@@ -37,37 +37,7 @@ const aparecerImagen = (imagen)=>{
 }
 // lighbox galeria end
 // 
-// disable right clic
-// function disableIE() {
-//     if (document.all) {
-//         return false;
-//     }
-// }
-// function disableNS(e) {
-//     if (document.layers || (document.getElementById && !document.all)) {
-//         if (e.which==2 || e.which==3) {
-//             return false;
-//         }
-//     }
-// }
-// if (document.layers) {
-//     document.captureEvents(Event.MOUSEDOWN);
-//     document.onmousedown = disableNS;
-// } 
-// else {
-//     document.onmouseup = disableNS;
-//     document.oncontextmenu = disableIE;
-// }
-// document.oncontextmenu=new Function("return false");
 
-
-// progress bar
-// spanprogress.forEach((span)=>{
-//     span.style.width = span.dataset.width;
-//     span.innerHTML = span.dataset.width;
-// })
-
-// TOTAL SLIDER MESSAGE START
 function contarSlider(){
     let perfil = document.getElementsByClassName("slide-cards");
     let logro = document.getElementsByClassName("slide-logro");
@@ -84,42 +54,6 @@ function contarSlider(){
     
 }
 contarSlider();
-// TOTAL SLIDER MESSAGE END
-
-// PROGRESS HORIZONTAL BAR START
-const spanprogress = document.querySelectorAll('.progress-bar span');
-const contenedorbar = document.getElementById('progress-bar-box-test');
-const spandata = document.getElementById('spandata');
-
-function mostrarprogressbar(){
-  let scrollTop = document.documentElement.scrollTop;
-  let alturaAnimado = contenedorbar.offsetTop;
-  if(alturaAnimado+150<scrollTop){
-    spanprogress.forEach((span)=>{
-    span.style.width = span.dataset.width;
-    span.innerHTML = span.dataset.width;
-    })
-    }
-    
-}
-
-window.addEventListener('scroll',mostrarprogressbar);
-function aumentadata(porentaje){
-    spandata.dataset.width=`${porentaje}% `;
-}
-var porcentajevalor =73;
-aumentadata(porcentajevalor);
-var temporizador = setInterval(function(){
-    let scrollTop = document.documentElement.scrollTop;
-    let alturaAnimado = contenedorbar.offsetTop;
-    let valorscroll = scrollTop-alturaAnimado;
-    console.log(valorscroll);
-    if(porcentajevalor<92 && (0<valorscroll<500)){
-        aumentadata(porcentajevalor);
-        mostrarprogressbar();
-        porcentajevalor++;
-    }
-},9000);
 
 // PROGRESS HORIZONTAL BAR END
 
