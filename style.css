@@ -435,9 +435,9 @@ a:link, a:visited, a:active {
 
 .simply-days-section{
     /* si comento display: none, descomento lo de abajo */
-    display: none;  
-    /* text-align: center;
-    margin: 0 8px; */
+    /* display: none;   */
+    text-align: center;
+    margin: 0 8px;
 }
 
 /*  */
